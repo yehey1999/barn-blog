@@ -1,4 +1,6 @@
-    <div id="main-content" class="m-0 col-md-8 order-md-2 order-1 pt-3">
-        <p class="h2 title title-h2">Photo Gallery</p>
+
+<div class="container text-white">
+    <div id="content" class="row mx-auto">
+        Photo Gallery
     </div>
 </div>

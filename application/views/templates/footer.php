@@ -1,3 +1,4 @@
+
 			<div id="footer" class="my-0 mx-auto">
 				<p class="default-line-height m-0 pb-1 text-center text-uppercase">Copyright (c) 2020 barn.com. All Rights Reserved</p>
 			</div>
