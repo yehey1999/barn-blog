@@ -3,20 +3,20 @@
 #### Note: 
     In the application/config/routes.php
 
-    $route['default_controller'] = 'Home/index'; <br>
+    $route['default_controller'] = 'Home/index'; 
     default controller means when you try to access localhost/barn-blog, it will read the Home(class)/index(function) controller
-    <br>    
-    $route['my-blog/:num'] = 'MyBlog/index'; <br>
-    $route['my-blog'] = 'MyBlog/index'; <br>
-    <br>
-    $route['photo-gallery'] = 'PhotoGallery/index'; <br>
-    $route['favorite-sites'] = 'FavoriteSites/index'; <br>
-    $route['contact-me'] = 'ContactMe/index'; <br>
-    <br>
-    $route['my-blog/add'] = 'MyBlog/addBlog'; <br>
-    $route['my-blog/update'] = 'MyBlog/updateBlog'; <br>
-    $route['my-blog/delete'] = 'MyBlog/deleteBlog'; <br>
-    <br>
+   
+    $route['my-blog/:num'] = 'MyBlog/index';
+    $route['my-blog'] = 'MyBlog/index'; 
+    
+    $route['photo-gallery'] = 'PhotoGallery/index';
+    $route['favorite-sites'] = 'FavoriteSites/index'; 
+    $route['contact-me'] = 'ContactMe/index'; 
+    
+    $route['my-blog/add'] = 'MyBlog/addBlog'; 
+    $route['my-blog/update'] = 'MyBlog/updateBlog'; 
+    $route['my-blog/delete'] = 'MyBlog/deleteBlog'; 
+    
 
 I've update the route to easy track and read the urls of the website pages.  <br>
 
