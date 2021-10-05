@@ -3,8 +3,9 @@
 #### Note: 
     In the application/config/routes.php
 
-/*** routes.php content start ***/
+routes.php content start <br>
     $route['default_controller'] = 'Home/index'; <br>
+    default controller means when you try to access localhost/barn-blog, it will read the Home(class)/index(function) controller
     <br>    
     $route['my-blog/:num'] = 'MyBlog/index'; <br>
     $route['my-blog'] = 'MyBlog/index'; <br>
@@ -17,7 +18,7 @@
     $route['my-blog/update'] = 'MyBlog/updateBlog'; <br>
     $route['my-blog/delete'] = 'MyBlog/deleteBlog'; <br>
     <br>
-/*** routes.php content end ***/
+routes.php content end<br>
 
 I've update the route to easy track and read the urls of the website pages.  <br>
 
