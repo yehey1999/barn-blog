@@ -23,9 +23,9 @@ I've update the route to easy track and read the urls of the website pages.  <br
 ex. <br>
 localhost/barn-blog/ -> display/call the applications/controller/Home(class)/index(function) <br>
 localhost/barn-blog/photo-gallery -> display/call the applications/controller/PhotoGallery(class)/index(function) <br>
-<?php echo base_url(); ?>favorite-sites  -> display/call the applications/controller/FavoriteSites(class)/index(function) <br>
-
-
+#### Note: 
+    <?php echo base_url(); ?>favorite-sites  -> display/call the applications/controller/FavoriteSites(class)/index(function), it is the same as localhost/barn-blog/favorite-sites
+ 
 #### Note: 
     In the application/config/config.php <br>
 
