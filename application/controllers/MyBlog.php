@@ -9,6 +9,11 @@ class MyBlog extends CI_Controller {
 
 	public function index()
 	{
+		// $route['my-blog/:num'] 
+		//
+		// Note: check the application/config/routes.php
+		// segment(2) is used to get the params :num (only number)
+		// https://codeigniter.com/userguide3/general/routing.html
 		$id = $this->uri->segment(2);
 		$this->load->model("Blogs");
 		$data["blogs"] = $this->Blogs->all();

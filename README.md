@@ -22,9 +22,9 @@
 I've update the route to easy track and read the urls of the website pages.  <br>
 
 ex. <br>
-localhost/barn-blog/ -> display the applications/controller/Home(class).index(function) <br>
-localhost/barn-blog/photo-gallery -> display the applications/controller/PhotoGallery(class).index(function) <br>
-
+localhost/barn-blog/ -> display/call the applications/controller/Home(class)/index(function) <br>
+localhost/barn-blog/photo-gallery -> display/call the applications/controller/PhotoGallery(class)/index(function) <br>
+<?php echo base_url(); ?>favorite-sites  -> display/call the applications/controller/FavoriteSites(class)/index(function) <br>
 
 
 #### Note: 
@@ -36,4 +36,8 @@ $config['base_url'] = 'http://localhost/barn-blog'; </br>
 
 /*** config.php content end ***/
 
-Make sure the base_url is correct
+Make sure the base_url is correct <br>
+
+
+#### Note: 
+    I've also attached the barn.sql
