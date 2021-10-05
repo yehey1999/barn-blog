@@ -29,11 +29,7 @@ localhost/barn-blog/photo-gallery -> display/call the applications/controller/Ph
 #### Note: 
     In the application/config/config.php <br>
 
-/*** config.php content start ***/
-
 $config['base_url'] = 'http://localhost/barn-blog'; </br>
-
-/*** config.php content end ***/
 
 Make sure the base_url is correct <br>
 
