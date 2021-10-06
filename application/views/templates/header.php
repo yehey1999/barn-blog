@@ -33,8 +33,8 @@
 						<li class="nav-item pt-2 w-100 <?php if ($title == "Favorite-sites") echo "active" ?>">
 							<a class="pt-1 text-decoration-none font-weight-bold text-center" href="<?php echo base_url(); ?>favorite-sites">Favorite Sites</a>
 						</li>
-						<li class="nav-item pt-2 w-100 <?php if ($title == "Contact-me") echo "active" ?>">
-							<a class="pt-1 text-decoration-none font-weight-bold text-center" href="<?php echo base_url(); ?>contact-me">Contact Me</a>
+						<li class="nav-item pt-2 w-100 <?php if ($title == "Comment") echo "active" ?>">
+							<a class="pt-1 text-decoration-none font-weight-bold text-center" href="<?php echo base_url(); ?>comment">Comment</a>
 						</li>
 					</ul>
 				</div>

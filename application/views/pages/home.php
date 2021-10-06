@@ -1,7 +1,7 @@
 
 <div class="container">
 	<div id="content" class="row mx-auto">
-        <div id="main-content" class="m-0 col-md-12 order-md-2 order-1 pt-3">
+        <div id="main-content" class="m-0 col-md-12 pt-3">
             <p class="h2 title title-h2">Welcome to My Website</p>
             <p class="byline m-0 default-line-height">Posted in <a href="#">Philippines</a> by Joshua Rosalijos on the September 2nd, 2021</p>
             <p class="default-line-height"><strong>The Barn</strong> is Sed accumsan congue

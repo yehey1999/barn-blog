@@ -3,12 +3,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 $route['default_controller'] = 'Home/index';
 
+
 $route['my-blog/:num'] = 'MyBlog/index';
 $route['my-blog'] = 'MyBlog/index';
 
 $route['photo-gallery'] = 'PhotoGallery/index';
 $route['favorite-sites'] = 'FavoriteSites/index';
-$route['contact-me'] = 'ContactMe/index';
+
+$route['comment'] = 'Comment/index';
+$route['comment/add'] = 'Comment/addComment';
 
 
 $route['my-blog/add'] = 'MyBlog/addBlog';
