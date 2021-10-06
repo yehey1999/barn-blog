@@ -1,4 +1,5 @@
 <div>
+    <!-- to be fixed, still figuring out why not showing message errors -->
     <?php echo validation_errors(); ?>
     <form method="POST" action="<?php echo base_url(); ?>comment/add">
         <div class="form-group row m-3">
