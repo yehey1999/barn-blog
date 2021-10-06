@@ -27,18 +27,26 @@ class Comment extends CI_Controller {
 		$username = $this->input->post("username");
 		$message = $this->input->post("message");
 		
-		$this->load->model("Comments");
-		if (!is_null($this->Comments->isUsernameExists($username))){
-			// https://stackoverflow.com/questions/30962285/how-to-pass-a-data-with-redirect-in-codeigniter
-			$this->session->set_flashdata('message', $username." - This username already exists.");
-			redirect("comment");
-		}
-		else{
-			$data["username"] = $username;
-			$data["message"] = $message;
-			$this->Comments->add($data);
-			redirect("comment");
-		}
+		$this->load->library('form_validation');
+		$this->form_validation->set_rules('username', 'username', 'required',   array('required' => "username is required"));
+		$this->form_validation->set_rules('message', 'message', 'required',  array('required' => "message is required"));
 
+		if ($this->form_validation->run() == FALSE) {
+			$this->session->set_flashdata('message', "Username and Message are required.");
+			redirect("comment");
+		}
+		else {
+			$this->load->model("Comments");
+			if (!is_null($this->Comments->isUsernameExists($username))){
+				$this->session->set_flashdata('message', $username." - This username already exists.");
+				redirect("comment");
+			}
+			else{
+				$data["username"] = $username;
+				$data["message"] = $message;
+				$this->Comments->add($data);
+				redirect("comment");
+			}
+		}
 	}
 }

@@ -1,4 +1,5 @@
 <div>
+    <?php echo validation_errors(); ?>
     <form method="POST" action="<?php echo base_url(); ?>comment/add">
         <div class="form-group row m-3">
             <label for="username" class="col-sm-2 col-form-label text-white">Username</label>
